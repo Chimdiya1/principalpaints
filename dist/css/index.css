@@ -60,6 +60,7 @@ nav {
     position: fixed;
     top: 0px;
     left: 0px;
+    height: 8vh;
   }
   #logo2 {
     display: block;
@@ -88,7 +89,7 @@ nav {
     display: none;
   }
   .nav-links {
-    margin-top: 9vh;
+    margin-top: 7vh;
     position: fixed;
     background: #ffffff;
     -webkit-box-orient: vertical;
@@ -628,7 +629,7 @@ footer {
 
 @media screen and (max-width: 768px) {
   #home {
-    margin-top: 10vh;
+    margin-top: 8vh;
     height: 90vh;
     display: -webkit-box;
     display: -ms-flexbox;
