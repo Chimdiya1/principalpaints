@@ -1,0 +1,143 @@
+/*About*/
+#about{
+    margin-top:40px;
+}
+#about h1{
+    text-align: center;
+    margin: 1.5em;
+}
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+.about-container .row1{
+    display: flex;
+    align-items: flex-start;
+    height: 50%;
+    margin-bottom: 2em;
+    justify-content: space-between;
+}
+.row1 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+}
+.row1 div h2{
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+.row2 div h2{
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+.row1 div img{
+    max-width: 100%;
+}
+.row2 div p{
+    text-align: center;
+}
+.row1 div p{
+    text-align: center;
+}
+.about-container .row2{
+    display: flex;
+    align-items: flex-start;
+        height: 50%;
+        justify-content: space-between;
+
+}
+.row2 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+}
+.row2 div img{
+    max-width: 100%;
+}
+
+
+@media screen and (max-width:768px){
+    /*About*/
+#about h1{
+    text-align: center;
+    margin: 1.5em;
+}
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    width: 90%;
+}
+.about-container .row1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 50%;
+    margin-bottom: 2em;
+    justify-content: space-between;
+}
+.row1 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.row1 div h2{
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    padding-bottom: .3em;
+    border-bottom: 3px solid #EB842F;
+}
+.row2 div h2{
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    padding-bottom: .3em;
+    border-bottom: 3px solid #EB842F;
+}
+.row1 div img{
+    max-width: 100%;
+}
+.row2 div p{
+    margin-bottom: 2em;
+    text-align: center;
+}
+.row1 div p{
+    margin-bottom: 2em;
+    text-align: center;
+}
+.about-container .row2{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+        height: 50%;
+        justify-content: space-between;
+        margin-bottom: 2em;
+
+}
+.row2 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+.row2 div img{
+    max-width: 100%;
+}
+
+
+}
