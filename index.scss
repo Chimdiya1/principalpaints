@@ -67,9 +67,9 @@ body {
 @media screen and (max-width: 768px) {
   #home {
     margin-top: 8vh;
-    height: 90vh;
+    height: 92vh;
     display: flex;
-    background: url(../assets/smallbg.png) no-repeat center center / cover;
+    background: url('https://res.cloudinary.com/chimdia/image/upload/v1594393150/principal/smallbg.png') no-repeat center center / cover;
     align-items: center;
     padding-top: 10px;
     justify-content: center;
